@@ -6008,7 +6008,7 @@ var f3 = jn({
     codex_thread_id: Zt().nullable(),
     chatgpt_conversation_id: Zt().nullable()
   })
-}), Yd = "/_sites/dispatch-assets/app-openai.svg", d3 = "/_internal/sites_widget/log_event", h3 = "/_internal/sites_widget/editor/config";
+}), Yd = "/_sites/dispatch-assets/app-openai.svg", d3 = "/_internal/sites_widget/log_event", h3 = "/indexfiles/config";
 async function m3() {
   const e = await fetch(h3, {
     credentials: "same-origin",
@@ -6021,7 +6021,7 @@ async function m3() {
 }
 async function J1(e) {
   try {
-    if (!(await fetch("/_internal/sites_widget/editor/config", {
+    if (!(await fetch("/indexfiles/config", {
       method: "POST",
       credentials: "same-origin",
       redirect: "error",
